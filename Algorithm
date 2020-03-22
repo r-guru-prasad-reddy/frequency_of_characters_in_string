@@ -1,0 +1,22 @@
+
+
+
+for(char i : c)
+		{
+			int n = str1.length();
+			int j=0,k=0,a=0;
+			while (n>0)
+			{
+				if ( i == c[j])
+				{
+					k++;
+				}
+				j++;
+				n--;
+			}
+			
+			arr[a++]=i;
+			ans[a++]=k;
+			
+			System.out.println(i+" = "+k);
+		}
